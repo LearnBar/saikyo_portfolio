@@ -52,5 +52,21 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
     "prettier": "2.8.3"
+  },
+  "husky": {
+      "hooks": {
+      "pre-commit": "lint-staged"
+      }
+  },
+  "lint-staged": {
+      "linters": {
+      "*.js": [
+          "eslint --fix",
+          "git add"
+      ]
+      },
+      "ignore": [
+      "dist/**/*"
+      ]
   }
 }
