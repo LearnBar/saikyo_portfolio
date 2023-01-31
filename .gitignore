@@ -24,4 +24,4 @@ yarn-error.log*
 
 #custom
 *.xml
-/.idea
+.idea/**/*.xml
