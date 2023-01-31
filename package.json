@@ -24,7 +24,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write ./src/**/*.{ts,tsx}"
+    "format": "prettier --write ./src/**/*.{ts,tsx}",
+    "prepare": "husky install",
+    "typecheck": "tsc",
+    "lint-staged": "lint-staged"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,14 @@
     "@typescript-eslint/parser": "^5.50.0",
     "eslint": "^8.33.0",
     "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
     "prettier": "2.8.3"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+        "eslint --fix",
+        "prettier --write"
+    ]
   }
 }
