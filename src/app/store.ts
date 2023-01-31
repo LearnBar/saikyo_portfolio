@@ -6,7 +6,7 @@ export const store = configureStore({
     counter: counterReducer,
   },
 });
-
+console.log("aa");
 export type AppDispatch = typeof store.dispatch;
 export type RootState = ReturnType<typeof store.getState>;
 export type AppThunk<ReturnType = void> = ThunkAction<
