@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from '../assets/styles/Profile.module.scss';
 
 const Profile = () => {
   return (
-    <div>
-      <h3>Profile</h3>
-      <ul>
+    <div className={styles.profile}>
+      <h3 className={styles.profile_title}>Profile</h3>
+      <ul className={styles.profile_ul}>
         <li>名前: Masana</li>
         <li>Lv: 999</li>
         <li>職業: フロントエンドエンジニア</li>
