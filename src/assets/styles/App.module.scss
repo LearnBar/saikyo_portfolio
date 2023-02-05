@@ -1,7 +1,10 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+/* bring in normalize.css styles */
 
 /* rest of app styles */
 
 .App {
+  background: #333;
   text-align: center;
+  color: #fff;
 }
