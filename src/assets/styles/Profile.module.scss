@@ -4,18 +4,17 @@
 
 .profile {
   font-family: '8bit-12-regular';
-  width: 450px;
-  margin: 0 auto;
+  width: 442px;
   border: 1px solid #fff;
   border-radius: 5px;
+  padding: 0 0 50px 16px;
 }
 
-.profile_title {
-  font-size: 30px;
+.profile__title {
+  font-size: 28px;
 }
 
-.profile_ul {
-  padding: 0 0 46px 55px;
+.profile__list {
   list-style: none;
   text-align: left;
   font-size: 16px;
