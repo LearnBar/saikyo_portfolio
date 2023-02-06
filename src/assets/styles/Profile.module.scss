@@ -4,13 +4,26 @@
 
 .profile {
   font-family: '8bit-12-regular';
-  width: 442px;
+  width: 459px;
   border: 1px solid #fff;
   border-radius: 5px;
-  padding: 0 0 50px 16px;
+  padding-bottom: 42px;
 }
 
-.profile__title {
+.profileTitle {
+  display: flex;
+  justify-content: center;
+  height: 74px;
+}
+
+.profileTitle__icon {
+  position: relative;
+  right: 6px;
+  bottom: 10px;
+  font-size: 36px;
+}
+
+.profileTitle__text {
   font-size: 28px;
 }
 
@@ -18,4 +31,6 @@
   list-style: none;
   text-align: left;
   font-size: 16px;
+  padding-left: 54px;
+  line-height: 20px;
 }

@@ -1,10 +1,18 @@
 import React from 'react';
 import styles from '../assets/styles/Profile.module.scss';
+import { BsFillPersonFill } from 'react-icons/bs';
 
 const Profile = () => {
   return (
     <div className={styles.profile}>
-      <h3 className={styles.profile__title}>Profile</h3>
+      <div className={styles.profileTitle}>
+        <p className={styles.profileTitle__icon}>
+          <BsFillPersonFill />
+        </p>
+        <h3 className={styles.profileTitle__text}>
+          Profile
+        </h3>
+      </div>
       <ul className={styles.profile__list}>
         <li>名前: Masana</li>
         <li>Lv: 999</li>
