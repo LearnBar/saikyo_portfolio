@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <div className={styles.hero}>
       <img src={logoTitle} />
-      <h2 className={styles.border}>Welcome to Saikyo portfolio</h2>
+      <h2 className={styles.title}>Welcome to Saikyo portfolio</h2>
       <ul className={styles.lists}>
         <li>▶ 1 PLAYER GAME</li>
         <li>2 PLAYER GAME</li>
