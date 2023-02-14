@@ -13,7 +13,7 @@ export const Profile = () => {
           Profile
         </h3>
       </div>
-      <ul className={styles.profile__list}>
+      <ul className={styles.profileList}>
         <li>名前: Masana</li>
         <li>Lv: 999</li>
         <li>職業: フロントエンドエンジニア</li>
