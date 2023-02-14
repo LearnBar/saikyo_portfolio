@@ -6,25 +6,25 @@
 .title {
   display: flex;
   align-items: center;
+
+  &::before,
+  &::after {
+    content: '';
+    height: 10px;
+    flex-grow: 1;
+    background: linear-gradient(to right, #291c61 0%, #aabe5c 150%);
+  }
+
+  &::before {
+    margin-right: 1rem;
+  }
+
+  &::after {
+    margin-left: 1rem;
+  }
 }
 
-.title::before,
-.title::after {
-  content: '';
-  height: 10px;
-  flex-grow: 1;
-  background: linear-gradient(to right, #291c61 0%, #aabe5c 150%);
-}
-
-.title::before {
-  margin-right: 1rem;
-}
-
-.title::after {
-  margin-left: 1rem;
-}
-
-.lists {
+.list {
   margin-top: 50px;
 }
 

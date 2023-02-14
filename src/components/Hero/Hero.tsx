@@ -5,9 +5,11 @@ import logoTitle from './hero_logo.png';
 export const Hero = () => {
   return (
     <div className={styles.hero}>
-      <img src={logoTitle} />
+      <h1>
+        <img src={logoTitle} alt="saikyoportfolio" />
+      </h1>
       <h2 className={styles.title}>Welcome to Saikyo portfolio</h2>
-      <ul className={styles.lists}>
+      <ul className={styles.list}>
         <li>▶ 1 PLAYER GAME</li>
         <li>2 PLAYER GAME</li>
         <li>3 PLAYER GAME</li>

@@ -1,5 +1,6 @@
 @import-normalize;
 /* bring in normalize.css styles */
+
 @import './fonts.scss';
 /* rest of app styles */
 
@@ -9,9 +10,7 @@ body {
   background: #333;
 }
 
-.App {
-  text-align: center;
-}
+/* CSS Reset */
 
 ul {
   padding-left: 0;
