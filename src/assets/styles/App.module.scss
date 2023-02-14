@@ -1,6 +1,7 @@
+// @import './reset.scss';
 @import-normalize;
-/* bring in normalize.css styles */
 
+/* bring in normalize.css styles */
 @import './fonts.scss';
 /* rest of app styles */
 
@@ -8,10 +9,4 @@ body {
   font-family: '8bit-12-regular';
   color: #fff;
   background: #333;
-}
-
-/* CSS Reset */
-
-ul {
-  padding-left: 0;
 }

@@ -5,7 +5,7 @@ import logoTitle from './hero_logo.png';
 export const Hero = () => {
   return (
     <div className={styles.hero}>
-      <h1>
+      <h1 className={styles.logo}>
         <img src={logoTitle} alt="saikyoportfolio" />
       </h1>
       <h2 className={styles.title}>Welcome to Saikyo portfolio</h2>

@@ -1,6 +1,13 @@
 .hero {
   min-height: 100vh;
   margin-top: 100px;
+  text-align: center;
+}
+
+.logo {
+  width: 778px;
+  height: 143px;
+  margin: 0 auto 40px;
 }
 
 .title {
@@ -26,6 +33,7 @@
 
 .list {
   margin-top: 50px;
+  padding: 0;
 }
 
 .copyright {
