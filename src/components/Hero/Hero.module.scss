@@ -1,0 +1,41 @@
+.hero {
+  min-height: 100vh;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.logo {
+  width: 778px;
+  height: 143px;
+  margin: 0 auto 40px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+
+  &::before,
+  &::after {
+    content: '';
+    height: 10px;
+    flex-grow: 1;
+    background: linear-gradient(to right, #291c61 0%, #aabe5c 150%);
+  }
+
+  &::before {
+    margin-right: 1rem;
+  }
+
+  &::after {
+    margin-left: 1rem;
+  }
+}
+
+.list {
+  margin-top: 50px;
+  padding: 0;
+}
+
+.copyright {
+  margin-top: 50px;
+}
