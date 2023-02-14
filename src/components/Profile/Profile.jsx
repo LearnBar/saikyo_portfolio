@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from '../assets/styles/Profile.module.scss';
+import styles from './Profile.module.scss';
 import { BsFillPersonFill } from 'react-icons/bs';
 
-const Profile = () => {
+export const Profile = () => {
   return (
     <div className={styles.profile}>
       <div className={styles.profileTitle}>
@@ -23,5 +23,3 @@ const Profile = () => {
     </div>
   );
 };
-
-export default Profile;
